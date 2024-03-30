@@ -29,10 +29,6 @@ export default function Home() {
     }
   );
 
-  // oknzsewhkcohetpd
-
-  console.log(data);
-
   const addEmail = (val: string) => {
     if (emails.includes(val)) {
       setErr("Email exists already. Try another email.");
